@@ -150,5 +150,5 @@ def hu_tucker(sym_prob_table, return_code=False):
     
     
 if __name__=="__main__":
-    print hu_tucker([("a",1), ("b", 4), ("c",2), ("d",12)], return_code=True)
+    print(hu_tucker([("a",1), ("b", 4), ("c",2), ("d",12)], return_code=True))
 

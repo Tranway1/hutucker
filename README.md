@@ -1,5 +1,6 @@
 # Hu-Tucker
-Simple implementation of the Hu-Tucker algorithm to produce efficient *ordererd* binary codes. These codes work like Huffman codes, but guarantee that the lexical order of symbols and the lexical order of binary strings are the same.
+Simple implementation of the Hu-Tucker algorithm to produce efficient *ordererd* binary codes. These codes work like Huffman codes, but guarantee that the specified order of symbols and the lexical order of binary strings are the same. Hu Tucker codes are the *optimal* ordered codes, and are at most 1 bit worse
+than the corresponding Huffman codes.
 
 ## Using
 
@@ -18,6 +19,6 @@ If `return_code` is true, then the return includes the explicit binary codes (us
 
     {'a': '000', 'c': '01', 'b': '001', 'd': '1'}
     
-## License: BSD
+**License: BSD**
 
 
